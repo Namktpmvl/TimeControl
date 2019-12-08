@@ -46,6 +46,7 @@
             this.GridViewEvents.Name = "GridViewEvents";
             this.GridViewEvents.ReadOnly = true;
             this.GridViewEvents.RowTemplate.Height = 24;
+            this.GridViewEvents.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.GridViewEvents.Size = new System.Drawing.Size(538, 281);
             this.GridViewEvents.TabIndex = 0;
             // 

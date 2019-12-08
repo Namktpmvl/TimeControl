@@ -44,7 +44,7 @@
             // btnCheck
             // 
             this.btnCheck.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheck.Location = new System.Drawing.Point(103, 271);
+            this.btnCheck.Location = new System.Drawing.Point(69, 271);
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.Size = new System.Drawing.Size(125, 47);
             this.btnCheck.TabIndex = 2;
@@ -54,7 +54,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(103, 336);
+            this.btnExit.Location = new System.Drawing.Point(69, 336);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(125, 47);
             this.btnExit.TabIndex = 3;
@@ -65,7 +65,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(98, 13);
+            this.label1.Location = new System.Drawing.Point(53, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 30);
             this.label1.TabIndex = 1;
@@ -75,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 404);
+            this.ClientSize = new System.Drawing.Size(267, 404);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.label1);

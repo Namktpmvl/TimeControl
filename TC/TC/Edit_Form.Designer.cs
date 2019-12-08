@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTime = new System.Windows.Forms.TextBox();
+            this.txtNote = new System.Windows.Forms.TextBox();
+            this.txtThingToDo = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -49,28 +49,28 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 23;
             // 
-            // textBox3
+            // txtTime
             // 
-            this.textBox3.Location = new System.Drawing.Point(150, 87);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(144, 22);
-            this.textBox3.TabIndex = 22;
+            this.txtTime.Location = new System.Drawing.Point(150, 87);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(144, 22);
+            this.txtTime.TabIndex = 22;
             // 
-            // textBox2
+            // txtNote
             // 
-            this.textBox2.Location = new System.Drawing.Point(150, 196);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(248, 22);
-            this.textBox2.TabIndex = 21;
+            this.txtNote.Location = new System.Drawing.Point(150, 196);
+            this.txtNote.Multiline = true;
+            this.txtNote.Name = "txtNote";
+            this.txtNote.Size = new System.Drawing.Size(248, 22);
+            this.txtNote.TabIndex = 21;
             // 
-            // textBox1
+            // txtThingToDo
             // 
-            this.textBox1.Location = new System.Drawing.Point(150, 142);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 22);
-            this.textBox1.TabIndex = 20;
+            this.txtThingToDo.Location = new System.Drawing.Point(150, 142);
+            this.txtThingToDo.Multiline = true;
+            this.txtThingToDo.Name = "txtThingToDo";
+            this.txtThingToDo.Size = new System.Drawing.Size(248, 22);
+            this.txtThingToDo.TabIndex = 20;
             // 
             // label5
             // 
@@ -99,7 +99,7 @@
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Red;
             this.btnCancel.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(297, 319);
+            this.btnCancel.Location = new System.Drawing.Point(297, 308);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(101, 40);
             this.btnCancel.TabIndex = 17;
@@ -111,11 +111,11 @@
             this.btnAdd.BackColor = System.Drawing.Color.Chartreuse;
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAdd.Location = new System.Drawing.Point(80, 322);
+            this.btnAdd.Location = new System.Drawing.Point(95, 310);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(101, 37);
             this.btnAdd.TabIndex = 16;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "Edit";
             this.btnAdd.UseVisualStyleBackColor = false;
             // 
             // label4
@@ -162,11 +162,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 388);
+            this.ClientSize = new System.Drawing.Size(435, 371);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTime);
+            this.Controls.Add(this.txtNote);
+            this.Controls.Add(this.txtThingToDo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnCancel);
@@ -185,9 +185,9 @@
         #endregion
 
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTime;
+        private System.Windows.Forms.TextBox txtNote;
+        private System.Windows.Forms.TextBox txtThingToDo;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btnCancel;

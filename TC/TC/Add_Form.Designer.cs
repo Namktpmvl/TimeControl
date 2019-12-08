@@ -36,9 +36,9 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtThingToDo = new System.Windows.Forms.TextBox();
+            this.txtNote = new System.Windows.Forms.TextBox();
+            this.txtTime = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
@@ -87,7 +87,7 @@
             this.btnAdd.BackColor = System.Drawing.Color.Chartreuse;
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAdd.Location = new System.Drawing.Point(72, 315);
+            this.btnAdd.Location = new System.Drawing.Point(89, 312);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(101, 37);
             this.btnAdd.TabIndex = 4;
@@ -128,28 +128,28 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Priority ";
             // 
-            // textBox1
+            // txtThingToDo
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 135);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 22);
-            this.textBox1.TabIndex = 8;
+            this.txtThingToDo.Location = new System.Drawing.Point(151, 135);
+            this.txtThingToDo.Multiline = true;
+            this.txtThingToDo.Name = "txtThingToDo";
+            this.txtThingToDo.Size = new System.Drawing.Size(248, 22);
+            this.txtThingToDo.TabIndex = 8;
             // 
-            // textBox2
+            // txtNote
             // 
-            this.textBox2.Location = new System.Drawing.Point(151, 189);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(248, 22);
-            this.textBox2.TabIndex = 9;
+            this.txtNote.Location = new System.Drawing.Point(151, 189);
+            this.txtNote.Multiline = true;
+            this.txtNote.Name = "txtNote";
+            this.txtNote.Size = new System.Drawing.Size(248, 22);
+            this.txtNote.TabIndex = 9;
             // 
-            // textBox3
+            // txtTime
             // 
-            this.textBox3.Location = new System.Drawing.Point(151, 84);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(144, 22);
-            this.textBox3.TabIndex = 10;
+            this.txtTime.Location = new System.Drawing.Point(151, 84);
+            this.txtTime.Name = "txtTime";
+            this.txtTime.Size = new System.Drawing.Size(144, 22);
+            this.txtTime.TabIndex = 10;
             // 
             // dateTimePicker1
             // 
@@ -164,9 +164,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(432, 378);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTime);
+            this.Controls.Add(this.txtNote);
+            this.Controls.Add(this.txtThingToDo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnCancel);
@@ -192,9 +192,9 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtThingToDo;
+        private System.Windows.Forms.TextBox txtNote;
+        private System.Windows.Forms.TextBox txtTime;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
