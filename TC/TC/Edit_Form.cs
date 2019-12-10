@@ -27,6 +27,7 @@ namespace TC
         void Edit_Form_Load(object sender, EventArgs e)
         {
             var oldEvent = this.Business.GetEvent(this.eventid);
+            this.dateTimePicker1.Text = oldEvent.Date.ToShortDateString();
             this.txtTime.Text = oldEvent.Time;
             this.txtThingToDo.Text = oldEvent.Things_to_do;
             this.txtNote.Text = oldEvent.Note;

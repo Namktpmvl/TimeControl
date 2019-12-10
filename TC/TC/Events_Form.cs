@@ -55,7 +55,16 @@ namespace TC
 
         void btnRemove_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            if (this.GridViewEvents.SelectedRows.Count == 1)
+            {
+                if (MessageBox.Show("Wanna delete this ??", "Confirm", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+                {
+                    var @event = (EventsView)this.GridViewEvents.SelectedRows[0].DataBoundItem;
+                    this.Business.RemoveEvents(@event.id);
+                    MessageBox.Show("Delete Class Successfully");
+                    this.ShowAllEvents();
+                }
+            }
         }
 
         void btnAdd_Click(object sender, EventArgs e)
