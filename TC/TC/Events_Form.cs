@@ -49,7 +49,8 @@ namespace TC
                 var ev3ntView = (EventsView)row.DataBoundItem;
 
                 (new Edit_Form(ev3ntView.id)).ShowDialog();
-            }
+                this.ShowAllEvents();               
+            }       
         }
 
 
